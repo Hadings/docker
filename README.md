@@ -84,4 +84,9 @@ def hello():
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=80)
 ```
+#### Run the app
+```
+docker run -p 4000:80 friendlyhello
+```
+
 
