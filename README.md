@@ -3,33 +3,33 @@ Docker Tutorial
 URL "https://docs.docker.com/get-started/part2/"
 
 #### List Docker CLI commands
-<pre><code>
+```
 docker
 docker container --help
-</code></pre>
+```
 #### Display Docker version and info
-<pre><code>
+```
 docker --version
 docker version
 docker info
-</code></pre>
+```
 #### Execute Docker image
-<pre><code>
+```
 docker run hello-world
-</code></pre>
+```
 #### List Docker images
-<pre><code>
+```
 docker image ls
-</code></pre>
+```
 #### List Docker containers (running, all, all in quiet mode)
-<pre><code>
+```
 docker container ls
 docker container ls --all
 docker container ls -aq
-</code></pre>
+```
 #### Define a container with Dockerfile
 #### create Dockerfile
-<pre><code>
+```
 # Use an official Python runtime as a parent image
 FROM python:2.7-slim
 
@@ -50,14 +50,14 @@ ENV NAME World
 
 # Run app.py when the container launches
 CMD ["python", "app.py"]
-</code></pre>
+```
 
 #### Create two more files, requirements.txt and app.py
 #### requirements.txt
-<code><pre>
+```
 Flask
 Redis
-</code></pre>
+```
 #### app.py
 ```
 from flask import Flask
