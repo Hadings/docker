@@ -1,12 +1,12 @@
 Docker Tutorial
 =============
 
-# List Docker CLI commands
+#### List Docker CLI commands
 <pre><code>
 docker
 docker container --help
 </code></pre>
-# Display Docker version and info
+#### Display Docker version and info
 <pre><code>
 docker --version
 docker version
