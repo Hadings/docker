@@ -1,5 +1,3 @@
-# docker
-
 Docker Tutorial
 =============
 
