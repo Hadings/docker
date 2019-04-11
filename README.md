@@ -59,7 +59,7 @@ Flask
 Redis
 </code></pre>
 #### app.py
-<code><pre>
+```
 from flask import Flask
 from redis import Redis, RedisError
 import os
@@ -83,6 +83,5 @@ def hello():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=80)
-</code></pre>
-
+```
 
