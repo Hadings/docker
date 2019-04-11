@@ -2,25 +2,30 @@ Docker Tutorial
 =============
 
 # List Docker CLI commands
+<pre><code>
 docker
 docker container --help
-
+</code></pre>
 # Display Docker version and info
+<pre><code>
 docker --version
 docker version
 docker info
-
+</code></pre>
 #### Execute Docker image
+<pre><code>
 docker run hello-world
-
+</code></pre>
 #### List Docker images
+<pre><code>
 docker image ls
-
+</code></pre>
 #### List Docker containers (running, all, all in quiet mode)
+<pre><code>
 docker container ls
 docker container ls --all
 docker container ls -aq
-
+</code></pre>
 #### Define a container with Dockerfile
 #### create Dockerfile
 <pre><code>
