@@ -12,6 +12,8 @@ tar -xvf elasticsearch-5.4.0.tar.gz cd elasticsearch-5.4.0/bin
 #user 생성
 useradd elastic
 passwd elastic
+
+#소유권한 
 chown -R elastic:elastic <elasticsearch 폴더>
 
 #이제 실행 가능
